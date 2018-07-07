@@ -87,7 +87,7 @@ var transform;
 var options = {"hmr":true}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(6)(content, options);
+var update = __webpack_require__(8)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -113,7 +113,7 @@ exports = module.exports = __webpack_require__(4)(false);
 
 
 // module
-exports.push([module.i, "* {\n  box-sizing: border-box;\n}\n\nhtml,\nbody,\ndiv,\nspan,\nobject,\niframe,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\np,\nblockquote,\npre,\nabbr,\naddress,\ncite,\ncode,\ndel,\ndfn,\nem,\nimg,\nins,\nkbd,\nq,\nsamp,\nsmall,\nstrong,\nsub,\nsup,\nvar,\nb,\ni,\ndl,\ndt,\ndd,\nol,\nul,\nli,\nfieldset,\nform,\nlabel,\nlegend,\ntable,\ncaption,\ntbody,\ntfoot,\nthead,\ntr,\nth,\ntd,\narticle,\naside,\ncanvas,\ndetails,\nfigcaption,\nfigure,\nfooter,\nheader,\nhgroup,\nmenu,\nnav,\nsection,\nsummary,\ntime,\nmark,\naudio,\nvideo {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  outline: 0;\n  font-size: 100%;\n  vertical-align: baseline;\n  background: transparent;\n}\n\nbody {\n  line-height: 1;\n}\n\narticle,\naside,\ndetails,\nfigcaption,\nfigure,\nfooter,\nheader,\nhgroup,\nmenu,\nnav,\nsection {\n  display: block;\n}\n\nul {\n  list-style: none;\n}\n\na {\n  margin: 0;\n  padding: 0;\n  font-size: 100%;\n  vertical-align: baseline;\n  background: transparent;\n  text-decoration: none;\n  cursor: pointer;\n}\n\ninput,\nselect {\n  vertical-align: middle;\n}\n\nbutton {\n  outline: 0;\n  cursor: pointer;\n}\n\n.logo {\n  background-image: url(" + escape(__webpack_require__(5)) + ");\n  background-position: left;\n  background-repeat: no-repeat;\n  background-size: contain;\n  height: 100%;\n  width: 100%;\n}\n\n.app {\n  font-family: 'Lato', sans-serif;\n  height: 100vh;\n  width: 100vw;\n  /* h1 {\r\n         color: $logoTextColor;\r\n     }\r\n    */\n}\n\n.app .header {\n  background: white;\n  display: flex;\n  height: 10%;\n  justify-content: space-between;\n  padding: 0 10px 0 0;\n  width: 100%;\n}\n\n.app .header .header_nav {\n  color: #c6b37d;\n  font-size: 1.2em;\n  margin-top: 15px;\n}\n\n.app .header .header_nav ul {\n  display: flex;\n}\n\n.app .header .header_nav ul li {\n  margin-left: 10px;\n}\n\n.app .header .header_nav ul li:hover {\n  color: #33190a;\n  cursor: pointer;\n}\n\n.app .gallery {\n  background: #33190a;\n  height: 35%;\n  width: 100%;\n}\n\n.app .main {\n  background: #e5dcc4;\n  height: 52%;\n  width: 100%;\n}\n\n.app .footer {\n  align-items: center;\n  background: #33190a;\n  color: #e5dcc4;\n  display: flex;\n  font-size: 0.7em;\n  height: 3%;\n  justify-content: flex-end;\n  padding: 0 10px 0 10px;\n  width: 100%;\n}", ""]);
+exports.push([module.i, "* {\n  box-sizing: border-box;\n}\n\nhtml,\nbody,\ndiv,\nspan,\nobject,\niframe,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\np,\nblockquote,\npre,\nabbr,\naddress,\ncite,\ncode,\ndel,\ndfn,\nem,\nimg,\nins,\nkbd,\nq,\nsamp,\nsmall,\nstrong,\nsub,\nsup,\nvar,\nb,\ni,\ndl,\ndt,\ndd,\nol,\nul,\nli,\nfieldset,\nform,\nlabel,\nlegend,\ntable,\ncaption,\ntbody,\ntfoot,\nthead,\ntr,\nth,\ntd,\narticle,\naside,\ncanvas,\ndetails,\nfigcaption,\nfigure,\nfooter,\nheader,\nhgroup,\nmenu,\nnav,\nsection,\nsummary,\ntime,\nmark,\naudio,\nvideo {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  outline: 0;\n  font-size: 100%;\n  vertical-align: baseline;\n  background: transparent;\n}\n\nbody {\n  line-height: 1;\n}\n\narticle,\naside,\ndetails,\nfigcaption,\nfigure,\nfooter,\nheader,\nhgroup,\nmenu,\nnav,\nsection {\n  display: block;\n}\n\nul {\n  list-style: none;\n}\n\na {\n  margin: 0;\n  padding: 0;\n  font-size: 100%;\n  vertical-align: baseline;\n  background: transparent;\n  text-decoration: none;\n  cursor: pointer;\n}\n\ninput,\nselect {\n  vertical-align: middle;\n}\n\nbutton {\n  outline: 0;\n  cursor: pointer;\n}\n\n.logo {\n  background-image: url(" + escape(__webpack_require__(5)) + ");\n  background-position: left;\n  background-repeat: no-repeat;\n  background-size: contain;\n  height: 100%;\n  width: 157px;\n}\n\n.footer_logo {\n  background-image: url(" + escape(__webpack_require__(6)) + ");\n  background-position: right;\n  background-repeat: no-repeat;\n  background-size: contain;\n  height: 3vh;\n  width: 50px;\n}\n\n.gallerry_pic {\n  background-image: url(" + escape(__webpack_require__(7)) + ");\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: cover;\n  height: 100%;\n  width: 100%;\n}\n\n.main {\n  align-items: center;\n  display: flex;\n  justify-content: center;\n  padding: 10px 30px 5px 30px;\n}\n\n.main article {\n  max-width: 1000px;\n}\n\n.main h2 {\n  color: #33190a;\n  font-size: 1.2rem;\n  letter-spacing: 3px;\n  padding-bottom: 20px;\n}\n\n.main p {\n  border-left: 2px solid #33190a;\n  color: #333;\n  text-align: justify;\n  padding: 5px 0 0 20px;\n}\n\n.app {\n  font-family: 'Lato', sans-serif;\n  height: 100vh;\n  width: 100vw;\n  /* h1 {\r\n         color: $logoTextColor;\r\n     }\r\n    */\n}\n\n.app .header {\n  background: white;\n  color: #33190a;\n  display: flex;\n  height: 10%;\n  justify-content: space-between;\n  padding: 0 10px 0 0;\n  width: 100%;\n}\n\n.app .header .header_logo {\n  align-items: center;\n  display: flex;\n}\n\n.app .header .header_logo p {\n  font-size: 1.1rem;\n  padding-left: 25px;\n  padding-top: 30px;\n}\n\n.app .header .header_logo p span {\n  font-weight: bold;\n}\n\n.app .header .header_nav {\n  color: #c6b37d;\n  font-size: 1.2rem;\n  margin-top: 15px;\n}\n\n.app .header .header_nav ul {\n  display: flex;\n}\n\n.app .header .header_nav ul li {\n  margin-left: 10px;\n}\n\n.app .header .header_nav ul li:hover {\n  color: #33190a;\n  cursor: pointer;\n}\n\n.app .gallery {\n  background: #33190a;\n  height: 35%;\n  width: 100%;\n}\n\n.app .main {\n  background: #e5dcc4;\n  height: 52%;\n  width: 100%;\n}\n\n.app .footer {\n  align-items: center;\n  background: #33190a;\n  color: #e5dcc4;\n  display: flex;\n  font-size: 0.6rem;\n  height: 3%;\n  justify-content: space-between;\n  padding: 0 10px 0 10px;\n  width: 100%;\n}\n\n.app .footer .footer_contact {\n  display: flex;\n  align-items: center;\n  font-size: 0.7rem;\n}\n\n.app .footer .footer_contact p {\n  padding-right: 15px;\n}\n\n.app .footer .footer_contact a {\n  color: #e5dcc4;\n}", ""]);
 
 // exports
 
@@ -232,6 +232,18 @@ module.exports = __webpack_require__.p + "8a995b5c8cdd6f61920c892523e91013.png";
 /* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
+module.exports = __webpack_require__.p + "8595a388849696a1705cab4fa8118eef.png";
+
+/***/ }),
+/* 7 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "574f7fa5042a9946ed5f40c380f4b5d1.jpg";
+
+/***/ }),
+/* 8 */
+/***/ (function(module, exports, __webpack_require__) {
+
 /*
 	MIT License http://www.opensource.org/licenses/mit-license.php
 	Author Tobias Koppers @sokra
@@ -285,7 +297,7 @@ var singleton = null;
 var	singletonCounter = 0;
 var	stylesInsertedAtTop = [];
 
-var	fixUrls = __webpack_require__(7);
+var	fixUrls = __webpack_require__(9);
 
 module.exports = function(list, options) {
 	if (typeof DEBUG !== "undefined" && DEBUG) {
@@ -601,7 +613,7 @@ function updateLink (link, options, obj) {
 
 
 /***/ }),
-/* 7 */
+/* 9 */
 /***/ (function(module, exports) {
 
 
